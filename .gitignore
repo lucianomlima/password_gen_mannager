@@ -1,0 +1,4 @@
+.idea/
+__pycache__/
+Output/
+password_file.csv
