@@ -14,7 +14,7 @@ window.resizable(0, 0)
 try:
     my_db = my_sq.connect(host='localhost', user='root', passwd='', )
     my_cur = my_db.cursor()
-    # print('success')
+    
     try:
         my_cur.execute('use mypassword')
 
