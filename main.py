@@ -14,7 +14,7 @@ window.resizable(0, 0)
 try:
     my_db = my_sq.connect(host='localhost', user='root', passwd='', )
     my_cur = my_db.cursor()
-    
+
     try:
         my_cur.execute('use mypassword')
 
@@ -60,7 +60,7 @@ def generate():
             s6.extend(list(s2))
             s6.extend(list(s3))
             s6.extend(list(s4))
-            # print(s6)
+            # prints
             random.shuffle(s6)
             s7 = (s6[0:int(E3.get())])
             s7.extend(list(s5))
